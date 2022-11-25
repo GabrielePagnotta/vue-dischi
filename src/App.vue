@@ -1,17 +1,23 @@
 <template>
   <div id="app">
    <SuperTop />
+   <MainBackground  />
   </div>
 </template>
 
 <script>
 import SuperTop from "./components/header/SuperTop.vue";
+import MainBackground from "./components/main/MainBackground.vue";
+
+
+
 
 export default {
   name: 'App',
   components: {
-    SuperTop,
-  }
+    SuperTop,MainBackground,
+  },
+  
 }
 </script>
 
