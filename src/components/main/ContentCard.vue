@@ -51,6 +51,11 @@
     
 }
 
+
+.box:hover{
+    background-color: #4e5d6c;
+}
+
 img{
     width:70%;
 }
